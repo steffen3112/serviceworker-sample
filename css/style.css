@@ -1,0 +1,45 @@
+body {
+    background: #CCC;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: yellow;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+nav {
+    background: #555;
+    padding: 0.2rem 0.2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0.2rem;
+    display: flex;
+}
+
+nav a {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .current > a {
+    color: yellow;
+}
+
+footer {
+    position: fixed;
+    padding: 0.2rem;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
